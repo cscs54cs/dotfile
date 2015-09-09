@@ -122,3 +122,8 @@ let g:go_fmt_command = "goimports"
 " set fold
 nnoremap <space> za
 set foldmethod=syntax
+
+" set paste
+nmap <leader>p :set paste<CR>
+nmap <leader>n :set nopaste<CR>
+
